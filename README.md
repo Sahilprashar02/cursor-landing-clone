@@ -51,7 +51,7 @@ This project rigorously follows the assignment constraints:
 
 ## 🖼️ Output
 
-_(Please see the repository files or host link for the live view)_
+[Live Demo](https://subtle-raindrop-3a6914.netlify.app/)
 
 ## 🚀 How to Run
 
