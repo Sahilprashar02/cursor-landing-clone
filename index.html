@@ -1,0 +1,500 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cursor</title>
+    <!-- Linking external stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./utilities/cursor.png" type="image/jpeg" />
+  </head>
+  <body>
+    <!-- HEADER SECTION: Contains Navigation Bar -->
+    <header class="header">
+      <nav class="nav">
+        <!-- LEFT: Logo and Branding -->
+        <div class="logo">
+          <!-- Video logo shown on hover -->
+          <video class="video" muted autoplay loop playsinline>
+            <source src="./utilities/logo-dark-theme.mp4" type="video/mp4" />
+          </video>
+          <img src="./utilities/cursor.png" class="logo-img" />
+          <img src="./utilities/cursor-text.png" class="logo-text" />
+        </div>
+
+        <!-- CENTER: Main Navigation Links -->
+        <div class="nav-mid">
+          <a href="#">Features</a>
+          <a href="#">Enterprise</a>
+          <a href="#">Pricing</a>
+          <a href="#">Resources</a>
+        </div>
+
+        <!-- RIGHT: Action Buttons -->
+        <div class="nav-right">
+          <button class="sign-in btn">Sign in</button>
+          <button class="download btn">Download</button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- HERO SECTION: Main introduction area -->
+      <section class="hero">
+        <div class="main-content">
+          <h1 class="main-heading">
+            Built to make you extraordinarily productive, Cursor is the best way
+            to code with AI.
+          </h1>
+
+          <div class="main-buttons">
+            <!-- CTA Button -->
+            <button class="get-started btn">Download for Linux ↓</button>
+          </div>
+        </div>
+        <!-- Hero Video/Media -->
+        <div class="hero-media">
+          <video class="hero-video" muted autoplay loop playsinline>
+            <source src="./utilities/hero-video.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </section>
+
+      <!-- BRAND SECTION: Logos of companies using the product -->
+      <section class="brand-section">
+        <p>Trusted every day by millions of professional developers.</p>
+        <div class="brand-card">
+          <div class="brand">
+            <img src="./utilities/stripe.png" alt="" />
+          </div>
+          <div class="brand">
+            <img src="./utilities/OpenAI.png" alt="" />
+          </div>
+          <div class="brand">
+            <img src="./utilities/Linear.png" alt="" />
+          </div>
+          <div class="brand">
+            <img src="./utilities/dataDog.png" alt="" />
+          </div>
+          <div class="brand">
+            <img src="./utilities/nvidia.png" alt="" />
+          </div>
+          <div class="brand">
+            <img src="./utilities/figma.png" alt="" />
+          </div>
+          <div class="brand">
+            <img src="./utilities/ramp.png" alt="" />
+          </div>
+          <div class="brand">
+            <img src="./utilities/adobe.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <!-- FEATURE SECTION: Highlighting key features with text and video -->
+      <section class="feature-section">
+        <div class="part1 features">
+          <div class="text1">
+            <p>Agent turns ideas into code</p>
+            <p class="p-color">
+              A human-AI programmer, orders of magnitude more effective than any
+              developer alone.
+            </p>
+            <a href="#">Learn about Agent →</a>
+          </div>
+          <div class="video1">
+            <video muted autoplay loop playsinline>
+              <source src="./utilities/video-1.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+        <div class="part2 features">
+          <div class="text2">
+            <p>Magically accurate autocomplete</p>
+            <p class="p-color">
+              Our custom Tab model predicts your next action with striking speed
+              and precision.
+            </p>
+            <a href="#">Learn about Tab →</a>
+          </div>
+          <div class="video2">
+            <video muted autoplay loop playsinline>
+              <source src="./utilities/video-2.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+        <div class="part3 features">
+          <div class="text3">
+            <p>Everywhere software gets built</p>
+            <p class="p-color">
+              Cursor is in GitHub reviewing your PRs, a teammate in Slack, and
+              anywhere else you work.
+            </p>
+            <a href="#">Learn about Cursor's ecosystem →</a>
+          </div>
+          <div class="img3">
+            <img
+              src="./utilities/feature-3.png"
+              alt="features3"
+              type="image/png"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- FEEDBACK SECTION: Testimonials or quotes from users -->
+      <section class="feedback-section">
+        <h2>The new way to build software.</h2>
+        <div class="feedback">
+          <!-- Feedback Card 1 -->
+          <div class="feedback-card">
+            <p>
+              It was night and day from one batch to another, adoption went from
+              single digits to over 80%. It just spread like wildfire, all the
+              best builders were using Cursor.
+            </p>
+            <div class="details">
+              <div>
+                <img src="./utilities/profile2.webp" alt="profile-img" />
+              </div>
+              <div>
+                <p class="name">Diana Hu</p>
+                <p class="work">General Partner, Y Combinator</p>
+              </div>
+            </div>
+          </div>
+          <!-- Feedback Card 2 -->
+          <div class="feedback-card">
+            <p>
+              The most useful AI tool that I currently pay for, hands down, is
+              Cursor. It's fast, autocompletes when and where you need it to,
+              handles brackets properly, sensible keyboard shortcuts,
+              bring-your-own-model... everything is well put together.
+            </p>
+            <div class="details">
+              <div>
+                <img src="./utilities/profile5.webp" alt="profile-img" />
+              </div>
+              <div>
+                <p class="name">shadcn</p>
+                <p class="work">Creator of shadcn/ui</p>
+              </div>
+            </div>
+          </div>
+          <!-- Feedback Card 3 -->
+          <div class="feedback-card">
+            <p>
+              The best LLM applications have an autonomy slider: you control how
+              much independence to give the AI. In Cursor, you can do Tab
+              completion, Cmd+K for targeted edits, or you can let it rip with
+              the full autonomy agentic version.
+            </p>
+            <div class="details">
+              <div>
+                <img src="./utilities/profile1.webp" alt="profile-img" />
+              </div>
+              <div>
+                <p class="name">Andrej Karpathy</p>
+                <p class="work">CEO, Eureka Labs</p>
+              </div>
+            </div>
+          </div>
+          <!-- Feedback Card 4 -->
+          <div class="feedback-card">
+            <p>
+              Cursor quickly grew from hundreds to thousands of extremely
+              enthusiastic Stripe employees. We spend more on R&D and software
+              creation than any other undertaking, and there's significant
+              economic outcomes when making that process more efficient and
+              productive.
+            </p>
+            <div class="details">
+              <div>
+                <img src="./utilities/profile4.webp" alt="profile-img" />
+              </div>
+              <div>
+                <p class="name">Patrick Collison</p>
+                <p class="work">Co-Founder & CEO, Stripe</p>
+              </div>
+            </div>
+          </div>
+          <!-- Feedback Card 5 -->
+          <div class="feedback-card">
+            <p>
+              It's official. <br /><br />
+
+              I hate vibe coding. <br />
+              I love Cursor tab coding. <br /><br />
+
+              It's wild.
+            </p>
+            <div class="details">
+              <div>
+                <img src="./utilities/profile6.webp" alt="profile-img" />
+              </div>
+              <div class="details">
+                <p class="name">ThePrimeagen</p>
+                <p class="work">@ThePrimeagen</p>
+              </div>
+            </div>
+          </div>
+          <!-- Feedback Card 6 -->
+          <div class="feedback-card">
+            <p>
+              It's definitely becoming more fun to be a programmer. It's less
+              about digging through pages and more about what you want to
+              happen. We are at the 1% of what's possible, and it's in
+              interactive experiences like Cursor where models like GPT-5 shine
+              brightest.
+            </p>
+            <div class="details">
+              <div>
+                <img src="./utilities/profile3.webp" alt="profile-img" />
+              </div>
+              <div>
+                <p class="name">Greg Brockman</p>
+                <p class="work">President, OpenAI</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FRONTIER SECTION: Additional Features/Cards -->
+      <section class="frontier">
+        <div class="frontier-container">
+          <h1 class="frontier-title">Stay on the frontier</h1>
+          <div class="frontier-grid">
+            <div class="frontier-card">
+              <h3>Access the best models</h3>
+              <p>
+                Choose between every cutting-edge model from OpenAI, Anthropic,
+                Gemini, and xAI.
+              </p>
+              <a href="#">Explore models ↗</a>
+
+              <div class="card-media">
+                <img
+                  src="./utilities/img-1.png"
+                  alt="models"
+                  type="image/png"
+                />
+              </div>
+            </div>
+
+            <div class="frontier-card">
+              <h3>Complete codebase understanding</h3>
+              <p>
+                Cursor learns how your codebase works, no matter the scale or
+                complexity.
+              </p>
+              <a href="#">Learn about semantic search ↗</a>
+
+              <div class="card-media">
+                <video muted autoplay loop playsinline>
+                  <source src="./utilities/video-3.mp4" type="video/mp4" />
+                </video>
+              </div>
+            </div>
+
+            <div class="frontier-card">
+              <h3>Develop enduring software</h3>
+              <p>
+                Trusted by over half of the Fortune 500 to accelerate
+                development, securely and at scale.
+              </p>
+              <a href="#">Explore enterprise ↗</a>
+
+              <div class="card-media image">
+                <img
+                  src="./utilities/img-3.png"
+                  alt="enterprise"
+                  type="image/png"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CHANGELOG SECTION -->
+      <section class="changelog">
+        <div class="changelog-container">
+          <h2 class="changelog-title">Changelog</h2>
+
+          <div class="changelog-grid">
+            <!-- Card 1 -->
+            <a href="#" class="changelog-card">
+              <div class="changelog-meta">
+                <span class="version-pill">2.4</span>
+                <span class="date">Jan 22, 2026</span>
+              </div>
+              <h3>Subagents, Skills, and Image Generation</h3>
+            </a>
+
+            <!-- Card 2 -->
+            <a href="#" class="changelog-card">
+              <span class="date">Jan 16, 2026</span>
+              <h3>CLI Agent Modes and Cloud Handoff</h3>
+            </a>
+
+            <!-- Card 3 -->
+            <a href="#" class="changelog-card">
+              <span class="date">Jan 8, 2026</span>
+              <h3>New CLI Features and Improved CLI Performance</h3>
+            </a>
+
+            <!-- Card 4 -->
+            <a href="#" class="changelog-card">
+              <div class="changelog-meta">
+                <span class="version-pill">2.4</span>
+                <span class="date">Dec 22, 2025</span>
+              </div>
+              <h3>Layout Customization and Stability Improvements</h3>
+            </a>
+          </div>
+          <a href="#" class="changelog-link">See what's new in Cursor →</a>
+        </div>
+      </section>
+
+      <!-- JOIN SECTION: Recruitment/Team -->
+      <section class="join-section">
+        <div class="main-content">
+          <h1>
+            Cursor is an applied team focused on building the future of coding.
+          </h1>
+          <div class="join-us">
+            <button class="get-started">Join us →</button>
+          </div>
+          <div class="team-photo">
+            <img
+              src="./utilities/homepage-team-photo.webp"
+              alt="cursor-team"
+              type="image/png"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- HIGHLIGHTS SECTION: Blog posts/News -->
+      <section class="highlights-section">
+        <div class="highlights-container">
+          <!-- Left label -->
+          <div class="highlights-left">
+            <p>Recent highlights</p>
+          </div>
+
+          <!-- Right content -->
+          <div class="highlights-right">
+            <a href="#" class="highlight-card">
+              <h3>Introducing Cursor 2.0 and Composer</h3>
+              <p class="desc">
+                A new interface and our first coding model, both purpose-built
+                for working with agents.
+              </p>
+              <span class="meta">Product · Oct 29, 2025</span>
+            </a>
+
+            <a href="#" class="highlight-card">
+              <h3>Improving Cursor Tab with online RL</h3>
+              <p class="desc">
+                Our new Tab model makes 21% fewer new Tab suggestions while
+                having 28% higher accept rate.
+              </p>
+              <span class="meta">Research · Sep 12, 2025</span>
+            </a>
+
+            <a href="#" class="highlight-card">
+              <h3>1.5x faster MoE training with custom MXFP8 kernels</h3>
+              <p class="desc">
+                Achieving a 3.5x MoE layer speedup with a complete rebuild for
+                Blackwell GPUs.
+              </p>
+              <span class="meta">Research · Aug 29, 2025</span>
+            </a>
+
+            <a href="#" class="view-more">View more posts →</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- DOWNLOAD SECTION: Bottom CTA -->
+      <section class="download-section">
+        <div class="download-content">
+          <h1 class="download-heading" >Try Cursor now.</h1>
+          <div class="download-buttons">
+            <button class="download-btn btn">Download for Linux ↓</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER SECTION: Links and Copyright -->
+    <footer class="site-footer">
+      <div class="footer-container">
+        <div class="footer-grid">
+          <!-- Column 1 -->
+          <div class="footer-col">
+            <h4>Product</h4>
+            <a href="#">Features</a>
+            <a href="#">Enterprise</a>
+            <a href="#">Web Agents</a>
+            <a href="#">Bugbot</a>
+            <a href="#">CLI</a>
+            <a href="#">Pricing</a>
+          </div>
+
+          <!-- Column 2 -->
+          <div class="footer-col">
+            <h4>Resources</h4>
+            <a href="#">Download</a>
+            <a href="#">Changelog</a>
+            <a href="#">Docs</a>
+            <a href="#">Learn</a>
+            <a href="#">Forum</a>
+            <a href="#">Status</a>
+          </div>
+
+          <!-- Column 3 -->
+          <div class="footer-col">
+            <h4>Company</h4>
+            <a href="#">Careers</a>
+            <a href="#">Blog</a>
+            <a href="#">Community</a>
+            <a href="#">Workshops</a>
+            <a href="#">Students</a>
+            <a href="#">Brand</a>
+          </div>
+
+          <!-- Column 4 -->
+          <div class="footer-col">
+            <h4>Legal</h4>
+            <a href="#">Terms of Service</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Data Use</a>
+            <a href="#">Security</a>
+          </div>
+
+          <!-- Column 5 -->
+          <div class="footer-col">
+            <h4>Connect</h4>
+            <a href="#">X</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">YouTube</a>
+          </div>
+        </div>
+
+        <!-- Footer bottom -->
+        <div class="footer-bottom">
+          <div class="footer-left">
+            © 2026 Cursor &nbsp; · &nbsp; SOC 2 Certified
+          </div>
+
+          <div class="footer-right">
+            <button class="lang-btn">🌐 English</button>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
