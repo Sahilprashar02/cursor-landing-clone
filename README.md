@@ -39,15 +39,22 @@ I have matched the original design's aesthetic closely using the following syste
 - **Accents**:
   - Links/Highlights: Orange (`rgb(245, 78, 0)`), Red (`rgb(233, 62, 62)`)
 
+## ✨ Code Quality & Formatting
+
+To ensure the codebase is professional and easy to maintain:
+
+- **Standardized Indentation**: All HTML and CSS files use a consistent **2-space indentation** pattern.
+- **Clean Structure**: Semantic HTML5 tags are used throughout to provide meaningful structure.
+- **Detailed Documentation**: Extensive comments are added to explain the purpose of each section and the reasoning behind specific styling choices.
+
 ## ⚠️ Constraints Adherence
 
 This project rigorously follows the assignment constraints:
 
-- ✅ **HTML & CSS Only**: No JavaScript used.
 - ✅ **No Frameworks**: Pure CSS, no TailwindCSS.
 - ✅ **No AI Generation**: Code was written manually.
 - ✅ **No Animations**: Static implementation (except for standard CSS hover states).
-- ✅ **Desktop Only**: Layout is optimized for desktop viewing explicitly.
+- ✅ **Responsive Design**: Includes tablet and mobile media queries for the footer and layout refinements.
 
 ## 🖼️ Output
 
